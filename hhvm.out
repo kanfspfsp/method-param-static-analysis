@@ -1,0 +1,300 @@
+/Users/kanfspfsp/Desktop/hhvm/hphp/hhbbc/index.cpp:205:3: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  MethTabEntry(const php::Func* func, Attr a, bool hpa, bool tl) :
+  ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/hhbbc/index.cpp:2004:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  explicit Define(NamingEnv& env, SString n, ClassInfo* ci,
+           ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/hhbbc/optimize.cpp:955:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  void operator()(const Index& index,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/parser/parser.cpp:53:25: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+std::string ParserBase::newAnonClassName(
+                        ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/base/concurrent-shared-store.cpp:192:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  bool store(Idx idx, const StringData* key,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/base/concurrent-shared-store.cpp:371:16: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+bool HotCache::store(Idx idx, const StringData* key,
+               ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/base/preg.cpp:218:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  void insert(Accessor& accessor, const StringData* regex,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/base/preg.cpp:467:17: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+void PCRECache::insert(
+                ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/bz2/ext_bz2.cpp:42:3: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  open(const String& filename, const String& mode, int /*options*/,
+  ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/hotprofiler/ext_hotprofiler.cpp:578:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  void walk(TraceIterator begin, TraceIterator end, TraceIterator final,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/hotprofiler/ext_hotprofiler.cpp:640:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  void incStats(const char* arc, TraceIterator tr, const Frame& fr,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/hotprofiler/ext_hotprofiler.cpp:910:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  void walkTrace(TraceIterator begin, TraceIterator end, TraceIterator final,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/json/JSON_parser.cpp:332:15: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  static bool TryParse(const char* inp, int length,
+              ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/memcached/ext_memcached.cpp:294:20: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  memcached_return doCacheCallback(const Variant& callback, ObjectData* this_,
+                   ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/memcached/ext_memcached.cpp:308:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  bool getMultiImpl(const String& server_key, const Array& keys, bool enableCas,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/memcached/ext_memcached.cpp:361:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  bool setOperationImpl(SetOperation op, const String& server_key,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/memcached/ext_memcached.cpp:379:11: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  Variant incDecOp(bool isInc,
+          ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/pgsql/pgsql.cpp:194:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  bool convertFieldRow(const Variant& row, const Variant& field,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/pgsql/pgsql.cpp:361:19: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+bool PGSQLResult::convertFieldRow(const Variant& row, const Variant& field,
+                  ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/phar/ext_phar.cpp:42:3: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  open(const String& filename, const String& /*mode*/, int /*options*/,
+  ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/shmop/ext_shmop.cpp:49:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  bool open(int64_t key, const StringData* flags, int64_t mode, int64_t size) {
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/stream/ext_stream-user-filters.cpp:110:11: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  Variant prepend(const Resource& stream,
+          ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/stream/ext_stream-user-filters.cpp:121:11: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  Variant append(const Resource& stream,
+          ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/stream/ext_stream-user-filters.cpp:141:11: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  Variant appendOrPrependFilter(const Resource& stream,
+          ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/stream/ext_stream-user-filters.cpp:212:26: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  req::ptr<StreamFilter> createInstance(const char* php_func,
+                         ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/thrift/compact.cpp:320:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void writeField(const Variant& value,
+         ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/thrift/compact.cpp:459:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void writeList(
+         ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/vsdebug/evaluate_command.cpp:32:3: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  EvaluatePHPExecutor(
+  ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/vsdebug/evaluate_command.cpp:53:22: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+EvaluatePHPExecutor::EvaluatePHPExecutor(
+                     ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/vsdebug/variables_command.cpp:41:3: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  DebugSummaryPHPExecutor(
+  ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/vsdebug/variables_command.cpp:56:26: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+DebugSummaryPHPExecutor::DebugSummaryPHPExecutor(
+                         ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/watchman/ext_watchman.cpp:187:3: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  ActiveSubscription(
+  ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/xmlwriter/ext_xmlwriter.cpp:147:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  bool writeElementNS(const Variant& prefix,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/xmlwriter/ext_xmlwriter.cpp:242:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  bool writeAttributeNS(const String& prefix,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/xmlwriter/ext_xmlwriter.cpp:397:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  bool writeDTD(const String& name,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/xmlwriter/ext_xmlwriter.cpp:489:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  bool writeDTDEntity(const String& name,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/zip/ext_zip.cpp:124:3: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  open(const String& filename, const String& /*mode*/, int /*options*/,
+  ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/ext/zlib/ext_zlib.cpp:46:3: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  open(const String& filename, const String& mode, int /*options*/,
+  ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/server/cli-server.cpp:409:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  req::ptr<File> open(const String& filename,
+                 ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/server/cli-server.cpp:1153:13: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+CLIWrapper::open(const String& filename, const String& mode, int options,
+            ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/server/proxygen/proxygen-transport.cpp:70:3: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  PushTxnHandler(uint64_t pushId,
+  ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/server/proxygen/proxygen-transport.cpp:132:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  void createPushPromise(const char *host, const char *path,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/extern-compiler.cpp:241:11: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  int64_t logTime(
+          ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/extern-compiler.cpp:256:32: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  std::unique_ptr<UnitEmitter> compile(
+                               ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/extern-compiler.cpp:347:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  void writeProgram(const char* filename, MD5 md5, folly::StringPiece code,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/extern-compiler.cpp:379:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  CompilerResult compile(const char* code,
+                 ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/extern-compiler.cpp:388:20: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  ParseFactsResult extract_facts(const CompilerGuard& compiler,
+                   ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/extern-compiler.cpp:551:30: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+CompilerResult CompilerPool::compile(const char* code,
+                             ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/extern-compiler.cpp:741:22: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+void ExternCompiler::writeProgram(
+                     ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/jit/irgen-builtin.cpp:1090:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  explicit CatchMaker(IRGS& env,
+           ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/jit/irgen-minstr.cpp:89:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  explicit PropInfo(int offset,
+           ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/jit/pdce-inlining.cpp:211:3: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  OptimizeContext(IRUnit* unit, SSATmp* fp, IRInstruction* ret, FPUseMap* uses)
+  ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/jit/prof-data-serialize.cpp:681:3: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  TargetProfileVisitor(ProfDataSerializer& ser,
+  ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/jit/refcount-opts.cpp:823:3: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  PreAdderInfo(PreEnv& penv,
+  ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/jit/region-hot-cfg.cpp:52:3: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  DFS(const ProfData* p, const TransCFG& c, int32_t maxBCInstrs, bool inlining,
+  ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/jit/region-tracelet.cpp:59:3: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  Env(const RegionContext& ctx,
+  ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/jit/relocation-arm.cpp:84:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  explicit Env(RelocationInfo& rel,
+           ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/jit/vasm-prof-branch.cpp:81:3: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  VasmID(Offset bcoff, uint16_t iroff, uint16_t voff,
+  ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/jit/vasm-util.cpp:381:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  void fillPhi(Vlabel block,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/jit/vasm-xls.cpp:887:3: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  UseVisitor(const Vunit& unit, jit::vector<Variable*>& variables,
+  ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/jit/vasm-xls.cpp:945:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  void use(Vreg r, Constraint kind, unsigned end, Vreg hint = Vreg{}) {
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/verifier/check-func.cpp:109:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  bool checkOffset(const char* name, Offset o, const char* regionName,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/verifier/check-func.cpp:111:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  bool checkRegion(const char* name, Offset b, Offset p,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/verifier/check-func.cpp:114:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  bool checkSection(bool main, const char* name, Offset base, Offset past);
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/verifier/check-func.cpp:128:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  bool checkSig(PC pc, int len, const FlavorDesc* args, const FlavorDesc* sig);
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/runtime/vm/verifier/check-func.cpp:346:19: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+bool FuncChecker::checkSection(bool is_main, const char* name, Offset base,
+                  ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/test/ext/test_server.cpp:519:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  void sendImpl(const void* data, int size, int code, bool /*chunked*/,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/tools/type-info-gens/gen-type-scanners.cpp:287:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  void genLayout(const Type&, Layout&, size_t,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/tools/type-info-gens/gen-type-scanners.cpp:289:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  void genLayout(const Object&, Layout&, size_t,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/tools/type-info-gens/gen-type-scanners.cpp:292:8: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  bool checkMemberSpecialAction(const Object& base_object,
+       ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/tools/type-info-gens/gen-type-scanners.cpp:2241:17: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+void Generator::genLayout(const Type& type,
+                ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/tools/type-info-gens/gen-type-scanners.cpp:2312:17: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+bool Generator::checkMemberSpecialAction(const Object& base_object,
+                ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/tools/type-info-gens/gen-type-scanners.cpp:2372:17: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+void Generator::genLayout(const Object& object,
+                ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/util/service-data.cpp:230:23: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  ExportedTimeSeries* createTimeSeries(
+                      ^
+--
+/Users/kanfspfsp/Desktop/hhvm/hphp/util/service-data.cpp:239:22: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+  ExportedHistogram* createHistogram(
+                     ^
+--

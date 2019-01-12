@@ -1,0 +1,1753 @@
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/base/data_type_terminated_test.cpp:57:19: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    static Status load(handledType* sdata,
+                  ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/base/data_type_terminated_test.cpp:74:19: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    static Status store(const handledType& sdata,
+                  ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/client/dbclient_cursor_test.cpp:54:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool call(Message& toSend,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/client/fetcher_test.cpp:72:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void processNetworkResponse(const BSONObj& obj,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/client/fetcher_test.cpp:143:19: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+void FetcherTest::processNetworkResponse(const BSONObj& obj,
+                  ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/auth/authorization_session_test.cpp:74:20: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual Status findOne(OperationContext* opCtx,
+                   ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/auth/sasl_commands.cpp:81:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/auth/sasl_commands.cpp:111:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/drop_database_test.cpp:71:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    repl::OpTime onDropCollection(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/drop_database_test.cpp:91:30: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+repl::OpTime OpObserverMock::onDropCollection(OperationContext* opCtx,
+                             ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/index_catalog_impl.cpp:834:5: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    IndexRemoveChange(OperationContext* opCtx,
+    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/rename_collection_test.cpp:78:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void onCreateIndex(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/rename_collection_test.cpp:84:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void onInserts(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/rename_collection_test.cpp:91:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void onCreateCollection(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/rename_collection_test.cpp:98:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    repl::OpTime onDropCollection(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/rename_collection_test.cpp:104:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void onRenameCollection(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/rename_collection_test.cpp:112:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    repl::OpTime preRenameCollection(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/rename_collection_test.cpp:119:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void postRenameCollection(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/rename_collection_test.cpp:147:22: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+void OpObserverMock::onCreateIndex(OperationContext* opCtx,
+                     ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/rename_collection_test.cpp:156:22: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+void OpObserverMock::onInserts(OperationContext* opCtx,
+                     ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/rename_collection_test.cpp:175:22: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+void OpObserverMock::onCreateCollection(OperationContext* opCtx,
+                     ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/rename_collection_test.cpp:185:30: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+repl::OpTime OpObserverMock::onDropCollection(OperationContext* opCtx,
+                             ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/rename_collection_test.cpp:202:22: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+void OpObserverMock::onRenameCollection(OperationContext* opCtx,
+                     ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/rename_collection_test.cpp:217:22: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+void OpObserverMock::postRenameCollection(OperationContext* opCtx,
+                     ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/rename_collection_test.cpp:229:30: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+repl::OpTime OpObserverMock::preRenameCollection(OperationContext* opCtx,
+                             ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/uuid_catalog.cpp:49:27: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+void UUIDCatalogObserver::onCreateCollection(OperationContext* opCtx,
+                          ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/uuid_catalog.cpp:61:27: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+void UUIDCatalogObserver::onCollMod(OperationContext* opCtx,
+                          ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/uuid_catalog.cpp:77:35: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+repl::OpTime UUIDCatalogObserver::onDropCollection(OperationContext* opCtx,
+                                  ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/catalog/uuid_catalog.cpp:123:19: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+void UUIDCatalog::setCollectionNamespace(OperationContext* opCtx,
+                  ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/apply_ops_cmd.cpp:217:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/authentication_commands.cpp:144:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/authentication_commands.cpp:162:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    Status _authenticate(OperationContext* opCtx,
+           ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/authentication_commands.cpp:214:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/authentication_commands.cpp:235:23: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+bool CmdAuthenticate::run(OperationContext* opCtx,
+                      ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/authentication_commands.cpp:289:25: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+Status CmdAuthenticate::_authenticate(OperationContext* opCtx,
+                        ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/authentication_commands.cpp:316:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/clone_collection.cpp:109:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool errmsgRun(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/collection_to_capped.cpp:89:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/collection_to_capped.cpp:168:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/compact.cpp:92:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool errmsgRun(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/conn_pool_stats.cpp:75:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/conn_pool_stats.cpp:147:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/conn_pool_sync.cpp:64:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/connection_status.cpp:63:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/count_cmd.cpp:110:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    Status explain(OperationContext* opCtx,
+           ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/count_cmd.cpp:172:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/cpuload.cpp:64:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* txn,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/create_indexes.cpp:511:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/create_indexes.cpp:552:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/dbcheck.cpp:381:28: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    StatusWith<BatchStats> _runBatch(const DbCheckCollectionInfo& info,
+                           ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/dbcheck.cpp:462:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    repl::OpTime _logOp(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/dbcheck.cpp:539:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/dbcommands.cpp:132:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/dbcommands.cpp:194:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/dbcommands.cpp:231:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool errmsgRun(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/dbcommands.cpp:288:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/dbcommands.cpp:403:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/dbcommands.cpp:542:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/dbcommands.cpp:590:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/dbcommands.cpp:625:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/dbcommands.cpp:720:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/dbcommands_d.cpp:183:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/dbcommands_d.cpp:341:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void dumpChunks(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/dbcommands_d.cpp:372:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/dbhash.cpp:92:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool errmsgRun(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/distinct.cpp:114:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    Status explain(OperationContext* opCtx,
+           ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/distinct.cpp:161:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/do_txn_cmd.cpp:141:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/driverHelpers.cpp:76:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool errmsgRun(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/drop_indexes.cpp:89:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/drop_indexes.cpp:120:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/end_sessions_command.cpp:76:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/explain_cmd.cpp:85:5: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    Invocation(const CmdExplain* explainCommand,
+    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/fail_point_cmd.cpp:96:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/find_and_modify.cpp:230:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    Status explain(OperationContext* opCtx,
+           ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/find_and_modify.cpp:296:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/fsync.cpp:125:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool errmsgRun(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/fsync.cpp:291:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/generic.cpp:78:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/generic.cpp:159:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/generic_servers.cpp:75:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/generic_servers.cpp:116:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/generic_servers.cpp:168:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/generic_servers.cpp:198:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/generic_servers.cpp:234:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool errmsgRun(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/generic_servers.cpp:303:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/get_last_error.cpp:81:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/get_last_error.cpp:118:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/getmore_cmd.cpp:212:16: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+        Status generateBatch(OperationContext* opCtx,
+               ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/hashcmd.cpp:85:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/haystack.cpp:99:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/invalidate_view_catalog_command.cpp:78:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/isself.cpp:62:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/kill_all_sessions_by_pattern_command.cpp:86:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/kill_all_sessions_command.cpp:86:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/kill_op.cpp:54:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/kill_sessions_command.cpp:109:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/killcursors_cmd.cpp:60:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/list_databases.cpp:91:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/list_indexes.cpp:123:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/lock_info.cpp:80:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/mr.cpp:1390:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/mr.cpp:1692:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/mr_test.cpp:285:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void onInserts(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/mr_test.cpp:295:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void onCreateCollection(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/mr_test.cpp:302:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    repl::OpTime onDropCollection(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/mr_test.cpp:318:27: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+void MapReduceOpObserver::onInserts(OperationContext* opCtx,
+                          ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/mr_test.cpp:327:27: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+void MapReduceOpObserver::onCreateCollection(OperationContext*,
+                          ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/mr_test.cpp:339:35: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+repl::OpTime MapReduceOpObserver::onDropCollection(OperationContext* opCtx,
+                                  ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/oplog_note.cpp:116:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/parameters.cpp:222:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/parameters.cpp:272:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/reap_logical_session_cache_now.cpp:73:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/refresh_logical_session_cache_now.cpp:78:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/refresh_sessions_command.cpp:78:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/refresh_sessions_command_internal.cpp:75:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/rename_collection_cmd.cpp:93:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool errmsgRun(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/repair_cursor.cpp:72:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/resize_oplog.cpp:81:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/restart_catalog_command.cpp:88:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/server_status.cpp:79:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/set_feature_compatibility_version_command.cpp:110:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/shutdown_d.cpp:54:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/sleep_command.cpp:73:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void _sleepInLock(mongo::OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/sleep_command.cpp:94:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/snapshot_management.cpp:72:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/snapshot_management.cpp:116:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/start_session_command.cpp:74:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/test_commands.cpp:80:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool errmsgRun(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/test_commands.cpp:129:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/test_commands.cpp:199:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/top_command.cpp:70:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/touch.cpp:84:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool errmsgRun(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/txn_cmds.cpp:78:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/txn_cmds.cpp:156:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:791:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:912:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:1035:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:1093:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:1141:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:1204:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:1267:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:1421:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:1521:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:1623:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:1714:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:1808:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:1884:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:1960:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:2093:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:2217:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:2294:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:2332:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:2477:17: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    static void addUser(OperationContext* opCtx,
+                ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:2515:17: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    static void addRole(OperationContext* opCtx,
+                ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:2550:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    Status processUsers(OperationContext* opCtx,
+           ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:2624:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    Status processRoles(OperationContext* opCtx,
+           ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/user_management_commands.cpp:2696:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/validate.cpp:96:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/commands/whats_my_uri_cmd.cpp:63:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/concurrency/lock_state.cpp:69:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void recordWaitTime(LockerId id, ResourceId resId, LockMode mode, uint64_t waitMicros) {
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/exec/geo_near.cpp:546:5: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    FetchStageWithMatch(OperationContext* opCtx,
+    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/exec/sort_test.cpp:74:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void testWork(const char* patternStr,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/exec/stagedebug_cmd.cpp:143:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/exec/stagedebug_cmd.cpp:222:16: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    PlanStage* parseQuery(OperationContext* opCtx,
+               ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/free_mon/free_mon_commands.cpp:79:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/free_mon/free_mon_commands.cpp:135:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/free_mon/free_mon_commands_stub.cpp:77:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/ftdc/ftdc_commands.cpp:93:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/op_observer_impl_test.cpp:315:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void simulateSessionWrite(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/op_observer_registry_test.cpp:57:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    repl::OpTime onDropCollection(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/op_observer_registry_test.cpp:66:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void onRenameCollection(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/op_observer_registry_test.cpp:77:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    repl::OpTime preRenameCollection(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/op_observer_registry_test.cpp:87:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void postRenameCollection(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/operation_context_test.cpp:604:24: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    stdx::future<bool> startWaiterWithMaxTime(OperationContext* opCtx,
+                       ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/operation_context_test.cpp:634:24: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    stdx::future<bool> startWaiterWithUntilAndMaxTime(OperationContext* opCtx,
+                       ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/operation_context_test.cpp:653:24: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    stdx::future<bool> startWaiterWithDurationAndMaxTime(OperationContext* opCtx,
+                       ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/operation_context_test.cpp:670:24: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    stdx::future<bool> startWaiterWithSleepUntilAndMaxTime(OperationContext* opCtx,
+                       ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/operation_context_test.cpp:687:24: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    stdx::future<bool> startWaiterWithSleepForAndMaxTime(OperationContext* opCtx,
+                       ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/pipeline/document_source_change_stream_test.cpp:115:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void checkTransformation(const OplogEntry& entry,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/pipeline/document_source_check_resume_token_test.cpp:69:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void addDocument(
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/pipeline/document_source_check_resume_token_test.cpp:100:59: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    intrusive_ptr<DocumentSourceEnsureResumeTokenPresent> createCheckResumeToken(
+                                                          ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/pipeline/document_source_current_op_test.cpp:70:26: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    std::vector<BSONObj> getCurrentOps(const boost::intrusive_ptr<ExpressionContext>& expCtx,
+                         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/pipeline/document_source_lookup_change_post_image_test.cpp:117:31: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    boost::optional<Document> lookupSingleDocument(
+                              ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/query/plan_cache_test.cpp:908:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void addIndex(BSONObj keyPattern, const std::string& indexName, bool multikey, bool sparse) {
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/query/plan_cache_test.cpp:961:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void runQuerySortProjSkipLimit(const BSONObj& query,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/query/plan_cache_test.cpp:973:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void runQueryHintMinMax(const BSONObj& query,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/query/plan_cache_test.cpp:980:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void runQuerySortProjSkipLimitHint(const BSONObj& query,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/query/plan_cache_test.cpp:989:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void runQueryFull(const BSONObj& query,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/query/plan_cache_test.cpp:1102:36: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    std::unique_ptr<QuerySolution> planQueryFromCache(const BSONObj& query,
+                                   ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/query/plan_cache_test.cpp:1200:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void assertPlanCacheRecoversSolution(const BSONObj& query,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/query/query_planner_geo_test.cpp:1327:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void testMultiple2dsphereIndexVersions(std::vector<int> versions,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/query/query_planner_geo_test.cpp:1348:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void testMultiple2dsphereIndexVersions(std::vector<int> versions,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/query/query_planner_wildcard_index_test.cpp:59:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void addWildcardIndex(BSONObj keyPattern,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/abstract_async_component_test.cpp:75:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    Status scheduleWorkAtAndSaveHandle_forTest(Date_t when,
+           ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/abstract_async_component_test.cpp:132:28: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+Status MockAsyncComponent::scheduleWorkAtAndSaveHandle_forTest(
+                           ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/abstract_oplog_fetcher_test.cpp:64:14: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    explicit MockOplogFetcher(executor::TaskExecutor* executor,
+             ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/abstract_oplog_fetcher_test.cpp:95:19: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+MockOplogFetcher::MockOplogFetcher(executor::TaskExecutor* executor,
+                  ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/collection_cloner_test.cpp:83:24: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    unsigned long long query(stdx::function<void(mongo::DBClientCursorBatchIterator&)> f,
+                       ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/data_replicator_external_state_mock.cpp:47:5: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    OplogApplierMock(executor::TaskExecutor* executor,
+    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/initial_syncer.cpp:193:16: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+InitialSyncer::InitialSyncer(
+               ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/initial_syncer.cpp:516:21: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+void InitialSyncer::_chooseSyncSourceCallback(
+                    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/initial_syncer.cpp:1083:21: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+void InitialSyncer::_multiApplierCallback(const Status& multiApplierStatus,
+                    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/oplog_fetcher_test.cpp:78:13: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    BSONObj makeOplogQueryMetadataObject(OpTime lastAppliedOpTime,
+            ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/oplog_fetcher_test.cpp:128:27: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+BSONObj OplogFetcherTest::makeOplogQueryMetadataObject(OpTime lastAppliedOpTime,
+                          ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/repl_set_commands.cpp:99:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/repl_set_commands.cpp:163:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/repl_set_commands.cpp:183:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/repl_set_commands.cpp:294:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/repl_set_commands.cpp:369:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/repl_set_commands.cpp:425:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/repl_set_commands.cpp:454:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/repl_set_commands.cpp:517:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/repl_set_commands.cpp:543:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/repl_set_commands.cpp:568:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/repl_set_commands.cpp:647:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/repl_set_commands.cpp:686:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/repl_set_commands.cpp:722:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/repl_set_get_status_cmd.cpp:48:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/repl_set_request_votes.cpp:52:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/replication_coordinator_impl_elect_v1_test.cpp:821:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void assertValidPriorityTakeoverDelay(ReplSetConfig config,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/replication_coordinator_impl_elect_v1_test.cpp:854:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    Date_t respondToHeartbeatsUntil(const ReplSetConfig& config,
+           ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/replication_info.cpp:236:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/replication_recovery_test.cpp:105:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    repl::OpTime onDropCollection(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/roll_back_local_operations_test.cpp:417:37: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    std::unique_ptr<DBClientCursor> query(const NamespaceStringOrUUID& nsOrUuid,
+                                    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/rollback_impl_test.cpp:124:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void _writeRollbackFileForNamespace(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/rollback_impl_test.cpp:191:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void _insertDocAndGenerateOplogEntry(BSONObj doc,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/rollback_impl_test.cpp:208:35: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    OplogInterfaceMock::Operation _insertDocAndReturnOplogEntry(
+                                  ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/rollback_impl_test.cpp:222:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void _updateDocAndGenerateOplogEntry(BSONObj query,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/rollback_impl_test.cpp:239:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void _deleteDocAndGenerateOplogEntry(BSONElement id,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/rollback_test_fixture.cpp:72:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    repl::OpTime onDropCollection(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/topology_coordinator_v1_test.cpp:172:21: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    ReplSetMetadata makeReplSetMetadata(OpTime visibleOpTime = OpTime(),
+                    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/topology_coordinator_v1_test.cpp:187:24: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    OplogQueryMetadata makeOplogQueryMetadata(OpTime lastAppliedOpTime = OpTime(),
+                       ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/topology_coordinator_v1_test.cpp:195:29: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    HeartbeatResponseAction receiveUpHeartbeat(const HostAndPort& member,
+                            ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/topology_coordinator_v1_test.cpp:231:29: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    HeartbeatResponseAction heartbeatFromMember(const HostAndPort& member,
+                            ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/repl/topology_coordinator_v1_test.cpp:249:29: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    HeartbeatResponseAction _receiveHeartbeatHelper(Status responseStatus,
+                            ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/balancer/migration_manager_test.cpp:109:15: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    ChunkType setUpChunk(const NamespaceString& collName,
+              ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/balancer/migration_manager_test.cpp:200:33: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+ChunkType MigrationManagerTest::setUpChunk(const NamespaceString& collName,
+                                ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/check_sharding_index_command.cpp:88:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/clone_catalog_data_command.cpp:82:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/config/configsvr_add_shard_command.cpp:93:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/config/configsvr_add_shard_to_zone_command.cpp:91:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/config/configsvr_commit_chunk_migration_command.cpp:117:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/config/configsvr_commit_move_primary_command.cpp:75:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/config/configsvr_control_balancer_command.cpp:78:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/config/configsvr_drop_collection_command.cpp:122:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/config/configsvr_drop_database_command.cpp:89:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/config/configsvr_enable_sharding_command.cpp:99:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/config/configsvr_merge_chunk_command.cpp:102:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/config/configsvr_move_chunk_command.cpp:84:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/config/configsvr_move_primary_command.cpp:107:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/config/configsvr_remove_shard_command.cpp:90:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/config/configsvr_remove_shard_from_zone_command.cpp:93:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/config/configsvr_shard_collection_command.cpp:595:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/config/configsvr_split_chunk_command.cpp:102:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/config/configsvr_update_zone_key_range_command.cpp:95:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/config/initial_split_policy_test.cpp:273:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void checkGeneratedInitialZoneChunks(const std::vector<TagsType>& tags,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/config/sharding_catalog_manager_add_shard_test.cpp:247:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void expectUpdatesReturnFailure(const HostAndPort& expectedHost,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/config/sharding_catalog_manager_create_collection_test.cpp:88:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void expectListCollection(const HostAndPort& receivingHost,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/get_shard_version_command.cpp:86:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/merge_chunks_command.cpp:300:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/migration_chunk_cloner_source_legacy.cpp:116:5: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    LogOpForShardingHandler(MigrationChunkClonerSourceLegacy* cloner,
+    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/migration_chunk_cloner_source_legacy_commands.cpp:152:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/migration_chunk_cloner_source_legacy_commands.cpp:214:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/migration_chunk_cloner_source_legacy_commands.cpp:263:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/migration_destination_manager_legacy_commands.cpp:88:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/migration_destination_manager_legacy_commands.cpp:155:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/migration_destination_manager_legacy_commands.cpp:195:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/migration_destination_manager_legacy_commands.cpp:240:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/move_chunk_command.cpp:120:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/move_primary_command.cpp:96:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/session_catalog_migration_destination_test.cpp:204:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void checkStatementExecuted(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/session_catalog_migration_destination_test.cpp:214:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void insertDocWithSessionInfo(const OperationSessionInfo& sessionInfo,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/set_shard_version_command.cpp:87:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/sharding_state_command.cpp:71:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/sharding_state_recovery.cpp:97:20: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    static BSONObj createChangeObj(ConnectionString configsvr,
+                   ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/shardsvr_shard_collection.cpp:605:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/split_chunk_command.cpp:95:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/split_vector_command.cpp:88:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/unset_sharding_command.cpp:76:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/s/wait_for_ongoing_chunk_splits_command.cpp:76:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/sorter/sorter.cpp:159:5: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    FileIterator(const std::string& fileName,
+    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/storage/devnull/devnull_kv_engine.cpp:112:20: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual Status insertRecordsWithDocWriter(OperationContext* opCtx,
+                   ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/storage/devnull/devnull_kv_engine.cpp:126:20: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual Status updateRecord(OperationContext* opCtx,
+                   ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/storage/devnull/devnull_kv_engine.cpp:137:36: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual StatusWith<RecordData> updateWithDamages(OperationContext* opCtx,
+                                   ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/storage/devnull/devnull_kv_engine.cpp:157:20: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual Status validate(OperationContext* opCtx,
+                   ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/storage/devnull/devnull_kv_engine.cpp:206:47: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual StatusWith<SpecialFormatInserted> insert(OperationContext* opCtx,
+                                              ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/storage/devnull/devnull_kv_engine.cpp:213:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual void unindex(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/storage/ephemeral_for_test/ephemeral_for_test_btree_impl.cpp:94:5: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    EphemeralForTestBtreeBuilderImpl(IndexSet* data,
+    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/storage/ephemeral_for_test/ephemeral_for_test_btree_impl.cpp:149:5: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    EphemeralForTestBtreeImpl(IndexSet* data,
+    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/storage/ephemeral_for_test/ephemeral_for_test_btree_impl.cpp:167:47: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual StatusWith<SpecialFormatInserted> insert(OperationContext* opCtx,
+                                              ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/storage/ephemeral_for_test/ephemeral_for_test_btree_impl.cpp:187:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual void unindex(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/storage/ephemeral_for_test/ephemeral_for_test_btree_impl.cpp:238:9: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+        Cursor(OperationContext* opCtx, const IndexSet& data, bool isForward, bool isUnique)
+        ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/storage/kv/kv_database_catalog_entry_test.cpp:78:20: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual Status createRecordStore(OperationContext* opCtx,
+                   ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/storage/kv/kv_drop_pending_ident_reaper_test.cpp:69:34: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    std::unique_ptr<RecordStore> getRecordStore(OperationContext* opCtx,
+                                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/storage/kv/kv_drop_pending_ident_reaper_test.cpp:80:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    Status createRecordStore(OperationContext* opCtx,
+           ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/storage/wiredtiger/wiredtiger_index.cpp:801:5: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    WiredTigerIndexCursorBase(const WiredTigerIndex& idx,
+    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/storage/wiredtiger/wiredtiger_index.cpp:1142:5: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    WiredTigerIndexUniqueCursor(const WiredTigerIndex& idx,
+    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/transaction_coordinator_service_test.cpp:234:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void commitTransaction(TransactionCoordinatorService& coordinatorService,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/transaction_coordinator_service_test.cpp:257:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void abortTransaction(TransactionCoordinatorService& coordinatorService,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/transaction_coordinator_test.cpp:492:17: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    static void assertDocumentMatches(
+                ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/transaction_coordinator_test.cpp:520:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void persistParticipantListExpectSuccess(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/transaction_coordinator_test.cpp:531:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void persistDecisionExpectSuccess(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/transaction_participant_retryable_writes_test.cpp:125:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    repl::OpTime onDropCollection(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/transaction_participant_retryable_writes_test.cpp:163:25: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    static repl::OpTime logOp(OperationContext* opCtx,
+                        ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/transaction_participant_retryable_writes_test.cpp:172:25: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    static repl::OpTime logOp(OperationContext* opCtx,
+                        ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/transaction_participant_retryable_writes_test.cpp:201:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    repl::OpTime writeTxnRecord(TxnNumber txnNum,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/transaction_participant_retryable_writes_test.cpp:222:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void assertTxnRecord(TxnNumber txnNum,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/transaction_participant_test.cpp:115:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    repl::OpTime onDropCollection(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/update/update_driver_test.cpp:534:17: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    std::string getModifiedPaths(mutablebson::Document* doc,
+                ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/db/views/view_graph_test.cpp:73:20: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    ViewDefinition makeViewDefinition(StringData db,
+                   ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/dbtests/jsobjtests.cpp:1496:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void test(BSONObj order, BSONObj l, BSONObj r, bool wanted) {
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/dbtests/query_plan_executor.cpp:100:53: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    unique_ptr<PlanExecutor, PlanExecutor::Deleter> makeCollScanExec(
+                                                    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/dbtests/query_plan_executor.cpp:140:53: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    unique_ptr<PlanExecutor, PlanExecutor::Deleter> makeIndexScanExec(Database* db,
+                                                    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/dbtests/query_stage_ensure_sorted.cpp:57:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void testWork(const char* patternStr,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/dbtests/query_stage_ixscan.cpp:118:16: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    IndexScan* createIndexScan(BSONObj startKey,
+               ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/dbtests/querytests.cpp:240:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void update(const char* ns, BSONObj q, BSONObj o, bool upsert = 0) {
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/dbtests/querytests.cpp:1057:32: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    unique_ptr<DBClientCursor> query(int minA, int minB, int maxA, int maxB, const BSONObj& hint) {
+                               ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/dbtests/querytests.cpp:1064:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void check(
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/dbtests/storage_timestamp_tests.cpp:512:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void assertRenamedCollectionIdentsAtTimestamp(KVCatalog* kvCatalog,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/dbtests/storage_timestamp_tests.cpp:537:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void assertIdentsExistAtTimestamp(KVCatalog* kvCatalog,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/dbtests/storage_timestamp_tests.cpp:555:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void assertIdentsMissingAtTimestamp(KVCatalog* kvCatalog,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/dbtests/storage_timestamp_tests.cpp:586:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void assertMultikeyPaths(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/dbtests/updatetests.cpp:71:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void update(const char* ns, BSONObj q, BSONObj o, bool upsert = 0) {
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/dbtests/updatetests.cpp:924:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void setParams(const BSONArray& fields,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/embedded/embedded_auth_manager.cpp:77:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    Status getRoleDescription(OperationContext*,
+           ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/embedded/embedded_auth_manager.cpp:85:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    Status getRolesDescription(OperationContext*,
+           ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/embedded/embedded_auth_manager.cpp:93:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    Status getRoleDescriptionsForDB(OperationContext*,
+           ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/embedded/embedded_auth_manager.cpp:126:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void logOp(OperationContext*,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/embedded/embedded_auth_session.cpp:121:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    Status checkAuthForUpdate(
+           ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/embedded/embedded_commands.cpp:63:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/embedded/embedded_commands.cpp:112:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/embedded/embedded_ismaster.cpp:67:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/embedded/stitch_support/stitch_support.cpp:179:5: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    stitch_support_v1_update(mongo::ServiceContext::UniqueClient client,
+    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/embedded/stitch_support/stitch_support_test.cpp:102:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void checkUpdate(const char* expr,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/executor/network_interface_integration_test.cpp:141:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void assertNumOps(uint64_t canceled, uint64_t timedOut, uint64_t failed, uint64_t succeeded) {
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/chunk_manager_query_test.cpp:49:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void runGetShardIdsForRangeTest(const BSONObj& shardKey,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/chunk_manager_query_test.cpp:64:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void runQueryTest(const BSONObj& shardKey,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/client/shard_local_test.cpp:68:38: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    StatusWith<Shard::QueryResponse> runFindQuery(NamespaceString nss,
+                                     ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/client/shard_local_test.cpp:151:50: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+StatusWith<Shard::QueryResponse> ShardLocalTest::runFindQuery(NamespaceString nss,
+                                                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_abort_transaction_cmd.cpp:71:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_add_shard_cmd.cpp:76:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_add_shard_to_zone_cmd.cpp:93:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_available_query_options_cmd.cpp:57:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_build_info.cpp:66:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_coll_stats_cmd.cpp:72:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_collection_mod_cmd.cpp:66:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_commit_transaction_cmd.cpp:72:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_compact_cmd.cpp:62:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_control_balancer_cmd.cpp:82:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_count_cmd.cpp:76:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_count_cmd.cpp:212:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    Status explain(OperationContext* opCtx,
+           ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_create_cmd.cpp:71:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_create_indexes_cmd.cpp:66:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_data_size_cmd.cpp:72:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_db_stats_cmd.cpp:106:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_distinct_cmd.cpp:89:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    Status explain(OperationContext* opCtx,
+           ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_distinct_cmd.cpp:159:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_drop_cmd.cpp:70:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_drop_database_cmd.cpp:71:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_drop_indexes_cmd.cpp:66:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_enable_sharding_cmd.cpp:86:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_explain_cmd.cpp:86:5: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    Invocation(const ClusterExplainCmd* explainCommand,
+    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_filemd5_cmd.cpp:84:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_find_and_modify_cmd.cpp:108:12: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    Status explain(OperationContext* opCtx,
+           ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_find_and_modify_cmd.cpp:162:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_find_and_modify_cmd.cpp:201:17: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    static void _runCommand(OperationContext* opCtx,
+                ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_flush_router_config_cmd.cpp:69:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_fsync_cmd.cpp:71:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_ftdc_commands.cpp:97:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_get_last_error_cmd.cpp:219:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_get_shard_map_cmd.cpp:70:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_get_shard_version_cmd.cpp:89:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_index_filter_cmd.cpp:87:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_is_db_grid_cmd.cpp:61:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_is_master_cmd.cpp:77:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_kill_op.cpp:58:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_killcursors_cmd.cpp:53:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_list_databases_cmd.cpp:83:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_list_shards_cmd.cpp:68:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_map_reduce_cmd.cpp:185:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_map_reduce_cmd.cpp:658:40: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    static CachedCollectionRoutingInfo createShardedOutputCollection(
+                                       ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_merge_chunks_cmd.cpp:100:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_move_chunk_cmd.cpp:94:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_move_primary_cmd.cpp:96:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_multicast.cpp:93:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_netstat_cmd.cpp:69:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_pipeline_cmd.cpp:70:21: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+        static void _runAggCommand(OperationContext* opCtx,
+                    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_plan_cache_cmd.cpp:89:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_plan_cache_cmd.cpp:111:27: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+bool ClusterPlanCacheCmd::run(OperationContext* opCtx,
+                          ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_remove_shard_cmd.cpp:74:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_remove_shard_from_zone_cmd.cpp:106:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_repl_set_get_status_cmd.cpp:69:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool errmsgRun(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_reset_error_cmd.cpp:64:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_restart_catalog_command.cpp:76:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_set_feature_compatibility_version_cmd.cpp:95:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_set_free_monitoring.cpp:65:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_shard_collection_cmd.cpp:107:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_shutdown_cmd.cpp:46:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_split_cmd.cpp:127:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool errmsgRun(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_update_zone_key_range_cmd.cpp:119:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_user_management_commands.cpp:86:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_user_management_commands.cpp:126:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_user_management_commands.cpp:175:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_user_management_commands.cpp:219:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_user_management_commands.cpp:260:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_user_management_commands.cpp:307:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_user_management_commands.cpp:353:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_user_management_commands.cpp:385:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_user_management_commands.cpp:421:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_user_management_commands.cpp:462:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_user_management_commands.cpp:502:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_user_management_commands.cpp:542:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_user_management_commands.cpp:582:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_user_management_commands.cpp:625:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_user_management_commands.cpp:670:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_user_management_commands.cpp:710:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_user_management_commands.cpp:747:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_user_management_commands.cpp:794:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_validate_cmd.cpp:71:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_whats_my_uri_cmd.cpp:65:18: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    virtual bool run(OperationContext* opCtx,
+                 ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_write_cmd.cpp:148:19: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    static Status _commandOpWrite(OperationContext* opCtx,
+                  ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/cluster_write_cmd.cpp:244:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool runImpl(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/commands_public.cpp:125:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/commands_public.cpp:195:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/commands_public.cpp:260:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/commands_public.cpp:306:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/commands_public.cpp:432:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/commands/commands_public.cpp:493:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool run(OperationContext* opCtx,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/s/query/cluster_aggregation_planner_test.cpp:101:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    void loadRoutingTable(NamespaceString nss,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/scripting/engine.cpp:507:9: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    int invoke(ScriptingFunction func,
+        ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/scripting/engine.cpp:516:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool exec(StringData code,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/scripting/engine.cpp:524:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool execFile(const string& filename, bool printResult, bool reportError, int timeoutMs = 0) {
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/util/background_job_test.cpp:46:5: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    TestJob(bool selfDelete,
+    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/util/net/http_client_winhttp.cpp:170:17: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    DataBuilder doRequest(LPCWSTR method, StringData urlSD, LPVOID data, DWORD data_len) const {
+                ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/util/net/ssl_manager_openssl.cpp:404:5: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    SSLConnectionOpenSSL(SSL_CTX* ctx, Socket* sock, const char* initialBytes, int len);
+    ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/util/net/ssl_manager_openssl.cpp:571:10: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    bool _parseAndValidateCertificate(const std::string& keyFile,
+         ^
+--
+/Users/kanfspfsp/Desktop/mongodb/src/mongo/util/net/ssl_manager_openssl.cpp:618:16: warning: Method has more than 3 Parameters [misc-more-than-three-parameters]
+    static int password_cb(char* buf, int num, int rwflag, void* userdata);
+               ^
+--
