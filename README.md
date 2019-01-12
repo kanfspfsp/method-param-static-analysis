@@ -16,11 +16,11 @@ If clang, llvm and clang-tidy is not setup, run the below commands in order:
 
 ```
 # download the sources 
-% git clone http://llvm.org/git/llvm.git 
-% cd llvm/tools/
-% git clone http://llvm.org/git/clang.git
-% cd clang/tools/
-% git clone http://llvm.org/git/clang-tools-extra.git extra
+$ git clone http://llvm.org/git/llvm.git 
+$ cd llvm/tools/
+$ git clone http://llvm.org/git/clang.git
+$ cd clang/tools/
+$ git clone http://llvm.org/git/clang-tools-extra.git extra
 ```
 This has source code for clang, llvm and clang-tidy.
 
@@ -123,7 +123,7 @@ MongoDB : https://github.com/mongodb/mongo   -
 > Report: mongodb.out (https://github.com/kanfspfsp/method-param-static-analysis/blob/master/mongodb.out)
 
 Facebook hhvm : https://github.com/facebook/hhvm
-> Report: mockitoOut.csv (https://github.com/kanfspfsp/method-param-static-analysis/blob/master/hhvm.out)
+> Report: hhvm.out (https://github.com/kanfspfsp/method-param-static-analysis/blob/master/hhvm.out)
 
 Godot Game Engine: https://github.com/godotengine/godot
 > Report: godot.out (https://github.com/kanfspfsp/method-param-static-analysis/blob/master/godot.out)
