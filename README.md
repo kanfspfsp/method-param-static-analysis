@@ -7,7 +7,7 @@ A basic static analysis which raises a warning if a method has more than 3 param
 * **[Tested On Repositories](#tested-on-repositories)**
 
 
-## INITIAL SETUP 
+## INITIAL SETUP AND RUNNING
 
 
 ### Download the sources
@@ -29,7 +29,6 @@ This has source code for clang, llvm and clang-tidy.
 # build everything
 $ cd ../../../
 $ mkdir build && cd build/
-# see http://llvm.org/docs/CMake.html#options-and-variables for details on the cmake build process of LLVM
 $ cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo ..
 $ make check-clang-tools
 $ export PATH=$PWD/bin:$PATH
