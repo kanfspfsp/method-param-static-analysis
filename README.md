@@ -2,8 +2,8 @@
 A basic static analysis which raises a warning if a method has more than 3 parameters.
 
 ## Table of contents
-* **[Initial Setup](#Initial-Setup)**
-* **[Running Static Analysis](#Running-Static-Analysis)**
+* **[Initial Setup And Running](#Initial-Setup-And-Running)**
+* **[Testing Static Analysis On Files](#Testing-Static-Analysis-On-Files)**
 * **[Tested On Repositories](#tested-on-repositories)**
 
 
@@ -33,14 +33,14 @@ $ mkdir build && cd build/
 $ cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo ..
 $ make check-clang-tools
 $ export PATH=$PWD/bin:$PATH
-
+# Now we are all set with LLVM, Clang and Clang-tidy  
 ```
 
-### Now we are all set with LLVM, Clang and Clang-tidy  
+### Let's setup our custom static analyser.
 
 ```
-# Let's setup our custom static analyser. Go to clang tidy folder by the follwing command:
-% cd ../tools/clang/tools/extra/clang-tidy
+# Go to clang tidy folder by the follwing command:
+$ cd ../tools/clang/tools/extra/clang-tidy
 
 # Adding Scaffolding
 $  cd llvm/tools/clang/tools/extra/clang-tidy
@@ -62,7 +62,7 @@ $  clang-tidy -checks='-*,misc-more-than-three-parameters' /any/problematic.cpp
 ```
 
 
-## RUNNING STATIC ANALYSIS
+## TESTING STATIC ANALYSIS ON FILES
 
 Consider a test c++ file, which has the code like:
 
