@@ -31,6 +31,7 @@ $ cd ../../../
 $ mkdir build && cd build/
 $ cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo ..
 $ make check-clang-tools
+# Ignore failing test cases of any.
 $ export PATH=$PWD/bin:$PATH
 # Now we are all set with LLVM, Clang and Clang-tidy  
 ```
